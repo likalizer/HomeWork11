@@ -7,9 +7,12 @@
 
 import UIKit
 
-class SettingsViewController: BaseViewController {
+
+class SettingsViewController: BaseViewController, UITextViewDelegate {
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 }

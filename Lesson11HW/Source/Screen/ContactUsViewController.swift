@@ -9,8 +9,15 @@ import UIKit
 
 class ContactUsViewController: BaseViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    @IBOutlet weak var messageTextView: UITextView!
+    @IBOutlet weak var placeholderLabel: UILabel!
+    @IBOutlet weak var characterCountLabel: UILabel!
+    @IBOutlet weak var submitButton: UIButton!
+    
+    
+    override func viewDidLoad() {        super.viewDidLoad()
+    
     }
 }
 
